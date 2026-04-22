@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# Build directories
+build/
+build-ninja/
+build-vs/
+cmake/
+
+# Model weights
+*.pt
+*.onnx
+*.engine
+
+# Images (generated/test)
+*.jpg
+*.png
+!test.jpg
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
